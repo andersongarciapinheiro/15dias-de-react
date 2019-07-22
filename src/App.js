@@ -16,9 +16,30 @@
 
 
 // componente Sem estado 
+// import React from "react";
+// import BoardCollab from "./components/BoardCollab/index.js"
+// import SquareCollab from "./components/SquareCollab/index.js";
+
+
+// const App = () => 
+//                  //fragment -> permite colocar mais de um componente 
+//                  //para inserir no index.html
+//                   <>
+//                     <BoardCollab /> 
+//                   </>
+                
+// export default App;
+
+
+
+//###############################################
+
+
+
+// componente Sem estado 
 import React from "react";
-import SquareCollab from "./components/SquareCollab/index.js";
+import BoardCollab from "./components/BoardCollab/index.js"
 
-const App = () => <SquareCollab />;
-
+const App = () => <BoardCollab qtd="9" /> 
+                
 export default App;

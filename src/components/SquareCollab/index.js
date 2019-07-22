@@ -1,8 +1,9 @@
 import React from "react";
+import "./styles.css";
 
 const SquareCollab = () => (
 
-  <button>x</button>
+  <button className="square-collab">x</button>
 
 );
 
