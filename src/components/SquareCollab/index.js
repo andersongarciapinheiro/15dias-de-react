@@ -1,9 +1,14 @@
 import React from "react";
 import "./styles.css";
 
+
+const handleClick = () => console.log('foi')
+
 const SquareCollab = () => (
 
-  <button className="square-collab">x</button>
+  <button
+      onClick={handleClick}
+      className="square-collab" >x</button>
 
 );
 
