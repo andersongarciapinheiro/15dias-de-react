@@ -38,13 +38,14 @@
 
 // componente Sem estado 
 import React from "react";
+import GameWrapper from "./components/GameWrapper/index.js"
 import BoardCollab from "./components/BoardCollab/index.js"
 import NextPlayer from "./components/NextPlayer/index.js"
 
 const App = () => 
-    <>
+    <GameWrapper>
       <NextPlayer />
       <BoardCollab qtd="9" />
-    </> 
+    </GameWrapper> 
                 
 export default App;

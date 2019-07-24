@@ -1,11 +1,12 @@
 .square-collab {
+  box-sizing: border-box;
   background-color: transparent;
   border: 1px solid #6c5ce7;
-  width: 60px;
-  height: 60px;
+  width: 33%;
+  height: 33%;
   font-size: 20px;
   color: #e84393;
   cursor: pointer;
-  display: block;
+  /* display: block; */
 }
 
