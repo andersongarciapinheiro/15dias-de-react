@@ -39,7 +39,12 @@
 // componente Sem estado 
 import React from "react";
 import BoardCollab from "./components/BoardCollab/index.js"
+import NextPlayer from "./components/NextPlayer/index.js"
 
-const App = () => <BoardCollab qtd="9" /> 
+const App = () => 
+    <>
+      <NextPlayer />
+      <BoardCollab qtd="9" />
+    </> 
                 
 export default App;
