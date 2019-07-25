@@ -42,6 +42,7 @@ import GameWrapper from "./components/GameWrapper/index.js"
 import BoardCollab from "./components/BoardCollab/index.js"
 import NextPlayer from "./components/NextPlayer/index.js"
 
+
 const App = () => 
     <GameWrapper>
       <NextPlayer />

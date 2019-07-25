@@ -3,7 +3,7 @@ import "./styles.css";
 
 class SquareCollab extends Component {
 
-  state = {content: "X"}
+  state = {content: ""}
   // constructor(props) {
   //     super(props);
   //     this.state = {
