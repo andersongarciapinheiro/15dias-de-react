@@ -4,6 +4,7 @@ import NextPlayer from "../NextPlayer";
 import BoardCollab from "../BoardCollab";
 
 import "./styles.css"
+import HistoryCollab from "../HistoryCollab";
 
 // const GameWrapper = ({children}) => (
 //   <main className="gameWrapper">{children}</main>
@@ -26,10 +27,9 @@ class GameWrapper extends Component {
     return (
            <main className="gameWrapper">
              <NextPlayer player={this.state.player} />
-             
              <BoardCollab onClick={this.handleClick} 
-                          content={this.state.player} 
-              />
+                          content={this.state.player} />
+              <HistoryCollab />
            </main>
     )
   }

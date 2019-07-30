@@ -1,9 +1,7 @@
 .board {
   display: inline-block;
-  /* flex-wrap: wrap; */
   width: 30vw;
   height: 30vw;
-
   max-width: 30vw;
   max-height:  30vw;
 

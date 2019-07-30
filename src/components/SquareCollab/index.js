@@ -1,6 +1,33 @@
 import React from "react";
 import "./styles.css";
 
+class SquareCollab extends React.Component {
+
+  state = {conteudo: ""}
+
+  targetClick = () => {
+    if(this.state.conteudo === "") {
+      this.setState({conteudo: this.props.content})
+      this.props.onClick()
+    }
+  }
+
+  render() {
+    return (
+        <button onClick={this.targetClick} className="square-collab">
+          {this.state.conteudo}
+        </button>
+    )
+  }
+}
+
+export default SquareCollab;
+
+
+
+
+
+
 // class SquareCollab extends Component {
 
 //   state = {content: ""}
@@ -30,13 +57,7 @@ import "./styles.css";
   // };
 
 
-  const SquareCollab = ({content, onClick}) => (
 
-    
-        <button onClick={onClick} className="square-collab">
-            {content}
-        </button>
-  )
 // let content = true;
 
 // const handleClick = (e) => {
@@ -57,7 +78,7 @@ import "./styles.css";
 
 // );
 
-export default SquareCollab;
+// export default SquareCollab;
 
 
 //CAIO HELPS###########
