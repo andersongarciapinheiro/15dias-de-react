@@ -7,7 +7,7 @@ class SquareCollab extends React.Component {
 
   targetClick = () => {
     if(this.state.conteudo === "") {
-      this.setState({conteudo: this.props.content})
+      this.setState({conteudo: this.props.player})
       this.props.onClick()
     }
   }

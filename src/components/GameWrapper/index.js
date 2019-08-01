@@ -2,9 +2,9 @@ import React, { Component } from "react"
 
 import NextPlayer from "../NextPlayer";
 import BoardCollab from "../BoardCollab";
+import HistoryCollab from "../HistoryCollab";
 
 import "./styles.css"
-import HistoryCollab from "../HistoryCollab";
 
 // const GameWrapper = ({children}) => (
 //   <main className="gameWrapper">{children}</main>
@@ -24,11 +24,14 @@ class GameWrapper extends Component {
 
 
   render() {
+
+    const {player} = this.state;
+
     return (
            <main className="gameWrapper">
-             <NextPlayer player={this.state.player} />
+             <NextPlayer player={player} />
              <BoardCollab onClick={this.handleClick} 
-                          content={this.state.player} />
+                          player={this.state.player} />
               <HistoryCollab />
            </main>
     )

@@ -68,7 +68,7 @@ class BoardCollab extends Component  {
       (square, index) => (
         <SquareCollab 
             key={index}
-            content={this.props.content}
+            player={this.props.player}
             onClick={this.props.onClick}
         />
       )

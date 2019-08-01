@@ -1,10 +1,20 @@
+ol {
+  padding: 0;
+}
+
 .hitoryCollab {
-  font-family: Arial, Helvetica, sans-serif;
-  color: brown;
-  padding: 5px 20px;
-  border-radius: 5px;
-  position: absolute;
-  font-weight: bold;
+  margin: auto;
+  width: 30vw;
+  font-family: 'Comfortaa', sans-serif;
   font-size: 1.5vw;
-  margin-left: 20px; 
+  list-style: none;
+  margin-bottom: 15px;
+  padding: 5px 0px;
+  background-color: #fd79a8;
+  box-shadow: 2px 2px 4px rgba(45, 52, 54, 0.5);
+}
+
+.hitoryCollab:nth-child(odd) {
+  background-color: #e84393;
+  color: #fff;
 }
