@@ -31,7 +31,7 @@ class GameWrapper extends Component {
            <main className="gameWrapper">
              <NextPlayer player={player} />
              <BoardCollab onClick={this.handleClick} 
-                          player={this.state.player} />
+                          player={this.state.player } />
               <HistoryCollab />
            </main>
     )
